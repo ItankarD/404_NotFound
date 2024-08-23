@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    padding-left:10px ;
+
+}
+header{
+    position: relative;
+    height: 128vh;
+    background-image: url('farm.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.header2{
+    
+    height: 100%;
+    background: white;
+    border-top: 5px solid rgb(228, 228, 228);
+}
+.header3{
+    height: 100%;
+    background: white;
+    border-top: 5px solid rgb(228, 228, 228);
+}
+.header4{
+    height: 100vh;
+    background: white;
+    border-top: 5px solid rgb(228, 228, 228);
+}
+
+.navbar{
+    background: black;
+    h3{
+        color: white;
+    }
+    height: 100%;
+}
+.btnExp{
+    align-items: center;
+    text-align: center;
+    font-size:15px ;
+    margin-left: 40px;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: black;
+    height: 38px;
+    transition: 0.1s ease;
+}
+.btnExp:hover{
+    background: rgb(20, 162, 20);
+    color: rgb(242, 255, 240);
+    }
+ion-icon{
+    color: azure;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+ion-icon:hover{
+    font-size: 23px;
+}
+.navbar-toggler-icon{
+    color:white;
+}
+.burger{
+    font-size: 30px;
+}
+.title-text{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 60px;
+    transition: 0.5s ease-in;
+    color: white;
+    margin-right: 60px;
+}
+.title-dis{
+    margin-left: 40px;
+    font-size: 20px;
+    transition: 0.5s ease-in;
+    color: white;
+    font-weight: 600;
+    margin-right: 60px;
+}
+
+.icons{
+    padding: 0 50px;
+
+}
+.contentN{
+    justify-content: space-around;
+}
+p{
+
+word-wrap: break-word;
+}
+.header2{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+.title2{
+    position: relative;
+    margin-top: 100px;
+    font-size: 50px;
+    padding: 0 50px;
+    transition: 0.5s ease-in;
+}
+.discription{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in;
+    padding: 0 60px;
+    font-weight: 300;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    align-items: center;
+}
+.card{
+    margin: 25px 10px;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover
+}
+
+.card-body{height: 10rem}
+.header3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.title3{
+    position: relative;
+    margin-top: 100px;
+    font-size: 50px;
+    padding: 0 50px;
+    transition: 0.5s ease-in;
+}
+
+.discription3{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in;
+    padding: 0 60px;
+    font-weight: 300;
+}
+
+.btncards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 30px;
+
+}
+.cardb{
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.card-titles{
+    font-size: 50px;
+    font-weight: 800;
+}
+.card-subtitle {
+    font-size: 23px;
+    color: black;
+}
+
+.card-texts{
+    margin-top: 30px;
+    color: rgb(122, 122, 122);
+
+}
+@media (max-width: 600px) {
+    .title-text{
+        font-size: 40px; /* Smaller font size */
+    }
+    .title-dis{
+        font-size: 15px;
+        font-weight: 300;
+        color: white;
+    }
+    .title2{
+        padding: 0 25px;
+        font-size: 35px;
+
+    }
+    .title3{
+        padding: 0 25px;
+        font-size: 35px;
+
+    }
+    .discription{
+        margin-top: 30px;
+        font-size:20px ;
+        transition: 0.5s ease-in;
+    }
+    
+}
+@media(max-width:987px)
+{
+    .icons{
+        padding-left: 0;
+    }
+}
