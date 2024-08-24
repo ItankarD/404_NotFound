@@ -30,7 +30,7 @@ header{
     border-top: 5px solid rgb(228, 228, 228);
 }
 .header4{
-    height: 100vh;
+    height: 100%;
     background: white;
     border-top: 5px solid rgb(228, 228, 228);
 }
@@ -139,6 +139,7 @@ word-wrap: break-word;
 
 .card-body{height: 10rem}
 .header3{
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -147,7 +148,7 @@ word-wrap: break-word;
 
 .title3{
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 50px;
     padding: 0 50px;
     transition: 0.5s ease-in;
@@ -189,6 +190,69 @@ word-wrap: break-word;
     color: rgb(122, 122, 122);
 
 }
+
+.cardbtn{
+    position: relative;
+    border-radius: 5px;
+    padding: 7px;
+    border : 1px solid;
+    border-color:rgb(51, 191, 191);
+    color: rgb(51, 191, 191);
+    font-weight: 600;
+    background-color: white;
+    transition: 0.2s ease;
+}
+.cardbtn:hover{
+    background-color: rgb(51, 191, 191);
+    color : white
+}
+.header4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px
+}
+
+.leftHeader4{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+    max-width: 100%;
+}
+.lefttitle{
+    font-size: 50px;
+}
+.rightHeader4{
+    margin-top: 80px;
+    max-width: 100%;
+
+}
+span{
+    display: flex;
+    align-items: center;
+}
+.spaceIcon{
+    margin-right: 20px;
+}
+.leftdis{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in;
+    font-weight: 300;
+}
+
+.responsive-iframe {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    min-height: 300px; /* Minimum height for smaller screens */
+    border: 0; /* Removes default border */
+  }
+@media (max-width: 768px) {
+    .header4 {
+      flex-direction: column; /* Stacks the content vertically on smaller screens */
+    }
+  }
 @media (max-width: 600px) {
     .title-text{
         font-size: 40px; /* Smaller font size */
@@ -213,7 +277,14 @@ word-wrap: break-word;
         font-size:20px ;
         transition: 0.5s ease-in;
     }
-    
+    .lefttitle{
+        font-size: 35px;
+    }
+    .leftdis{
+        margin-top: 30px;
+        font-size:20px ;
+        transition: 0.5s ease-in;
+    }
 }
 @media(max-width:987px)
 {
